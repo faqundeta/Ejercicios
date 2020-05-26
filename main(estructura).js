@@ -3,11 +3,10 @@ function calcularResultadoDeExamen(nota) {
     return 'aplazado'
   } else if (nota < 6) {
     return 'recuperar'
-  } else if (nota > 6){
+  } else if (nota < 10){
     return 'aprobado'
-  } else if (nota === 10) {
-    return 'sobresaliente'
   }
+    return 'sobresaliente'
 }
 
 
