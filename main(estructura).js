@@ -1,7 +1,7 @@
 function calcularResultadoDeExamen(nota) {
   if (nota < 4) {
     return 'aplazado'
-  } else if (nota > 4 && nota < 6) {
+  } else if (nota < 6) {
     return 'recuperar'
   } else if (nota > 6){
     return 'aprobado'
